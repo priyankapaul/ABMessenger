@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5B59BA"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/btn_biz_planning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_help"
+        android:layout_alignLeft="@+id/btn_price"
+        android:layout_alignStart="@+id/btn_price"
+        android:background="#5B59BA"
+        android:src="@drawable/computer" />
+
+    <ImageButton
+        android:id="@+id/btn_biz_rule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#5B59BA"
+        android:src="@drawable/biz"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <ImageButton
+        android:id="@+id/btn_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#5B59BA"
+
+        android:src="@drawable/question"
+        android:layout_below="@+id/textView2"
+        android:layout_toLeftOf="@+id/btn_arbic_logo"
+        android:layout_toStartOf="@+id/btn_arbic_logo" />
+
+    <ImageButton
+        android:id="@+id/btn_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#5B59BA"
+        android:src="@drawable/price"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <ImageButton
+        android:id="@+id/btn_start_biz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#5B59BA"
+        android:src="@drawable/start_biz"
+        android:layout_below="@+id/btn_arbic_logo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business Rule"
+        android:textColor="#FFFFFF"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/btn_biz_rule"
+        android:layout_alignLeft="@+id/btn_help"
+        android:layout_alignStart="@+id/btn_help" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Price"
+        android:paddingTop="10dp"
+       android:paddingBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignLeft="@+id/btn_price"
+        android:layout_alignStart="@+id/btn_price" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_help"
+        android:layout_alignStart="@+id/btn_help"
+        android:layout_below="@+id/btn_help"
+        android:layout_marginTop="17dp"
+        android:paddingLeft="10dp"
+        android:text="Help"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business Planning"
+        android:textColor="#FFFFFF"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_toRightOf="@+id/btn_arbic_logo"
+        android:layout_toEndOf="@+id/btn_arbic_logo" />
+
+    <ImageButton
+        android:id="@+id/btn_arbic_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#5B59BA"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:src="@drawable/arbicbook"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

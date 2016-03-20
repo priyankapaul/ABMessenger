@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abmessenger">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".adapters.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.SignUpActivity" />
+        <activity android:name=".ui.HomeActivity" />
+        <activity android:name=".ui.GalleryActivity" />
+        <activity android:name=".ui.SingleImageActivity" />
+        <activity android:name=".ui.ViewImageActivity" />
+        <activity
+            android:name=".ui.CreateAlbumActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" /><![CDATA[
+        android:name="">
+        ]]>
+        <activity android:name=".ui.PriceActivity" />
+        <activity android:name=".ui.BizRuleActivity" />
+        <activity android:name=".ui.BizPlanningActivity" />
+        <activity android:name=".ui.HelpActivity" />
+        <activity android:name=".ui.StartBizActivity"></activity>
+    </application>
+
+</manifest>
